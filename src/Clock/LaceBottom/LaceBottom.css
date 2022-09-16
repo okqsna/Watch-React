@@ -1,0 +1,12 @@
+.LaceBottom{
+    width: 157px;
+    height: 220px;
+    position: relative;
+    top: 3px;
+    background-color: #697185;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: inset 0px 0px 20px 8px rgba(0,0,0,0.34);
+}

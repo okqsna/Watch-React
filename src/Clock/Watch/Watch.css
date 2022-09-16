@@ -1,0 +1,49 @@
+
+.screen__watch{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.screen{
+    position: relative;
+    width: 250px;
+    height: 280px;
+    background-color: #000;
+    color: #fff;
+    top:5px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 38px -20px rgba(227,227,227,0.83);
+}
+ .screenColumn{
+   position: absolute;
+   bottom: 40%;
+   right: 39.5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .circle{
+    width:13px;
+    height:30px;
+    border-radius:40%;
+    background-color: #797879;
+    box-shadow: inset 0px 0px 19px 8px rgba(0,0,0,0.34);
+ }
+ .btn{
+    width: 3px;
+    height: 40px;
+    margin-top: 55px;
+    border-radius: 10px;
+    background-color: #797879;
+    box-shadow: inset 0px 0px 20px 8px rgba(0,0,0,0.34);
+ }
+ @media only screen and (max-width:90%){
+   .screenColumn{
+    right: 39%;
+   }
+ }
+
